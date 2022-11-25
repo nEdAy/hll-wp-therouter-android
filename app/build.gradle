@@ -41,6 +41,6 @@ dependencies {
     moduleKapt "cn.therouter:apt:$TheRouterVersion"
     moduleImplementation "cn.therouter:router:$TheRouterVersion"
     api project(":business-base")
-    api project(":business-a")
-    api project(":business-b")
+    runtimeOnly project(":business-a")
+    runtimeOnly project(":business-b")
 }

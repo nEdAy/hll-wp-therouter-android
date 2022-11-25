@@ -7,7 +7,7 @@ def getLocalProperties() {
             if (localPropertiesFile == null || !localPropertiesFile.exists()) {
                 localPropertiesFile = new File("../local.properties")
             }
-        } catch (Exception e) {
+        } catch (Exception ignored) {
             localPropertiesFile = new File("../local.properties")
         }
         println("localPropertiesFile===:" + localPropertiesFile.absolutePath)
