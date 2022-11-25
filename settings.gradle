@@ -15,3 +15,5 @@ getLocalProperties().entrySet().each { entry ->
         }
     }
 }
+
+include ':app', ':business-a', ':business-b', ':business-base'
